@@ -1,0 +1,93 @@
+/*Para Notebook um pouco maior*/
+@media screen and (max-width: 1205px) {
+    .esquerda {
+        width: 100%;
+        margin: 5%;
+
+        text-align: center;
+    }
+
+    .esquerda p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .imagem-direita {
+        width: 100%;
+        margin: 5%;
+        text-align: center;
+        margin-top: 0;
+
+    }
+
+    .botao-contrate {
+        margin-top: 7%;
+    }
+}
+
+/*Para Notebook*/
+@media only screen and (max-width: 1095px) {
+    .card {
+        width: 100%;
+    }
+
+    #card-1 {
+        margin-left: 1%;
+    }
+
+    .footer {
+        margin-top: 40%;
+    }
+
+
+}
+
+
+/*Para Tablet um pouco maior*/
+@media only screen and (max-width: 920px) {
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+/*Para Tablet*/
+@media only screen and (max-width: 845px) {
+    .footer {
+        margin-top: 60%;
+    }
+
+    .imagem-direita img {
+        width: 400px;
+    }
+}
+
+/*Para Mobile um pouco maior*/
+@media only screen and (max-width: 650px) {
+    .footer {
+        margin-top: 80%;
+    }
+}
+
+/*Para Mobile*/
+@media only screen and (max-width: 572px) {
+    .footer {
+        margin-top: 100%;
+    }
+}
+
+/* Para Mobile */
+@media only screen and (max-width: 500px) {
+    .footer {
+        margin-top: 600px;
+
+    }
+}
+
+/* Site funciona a partir de 485 pixels, abaixo disso ele distorce */
